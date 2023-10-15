@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -31,4 +32,42 @@ header h1 {
 ul {
   display: flex;
   gap: 16px;
+}
+/*-------HERO-SECTION styles---------*/
+.section-hero {
+  display: flex;
+  gap: 32px;
+  justify-content: space-evenly;
+  background-color: #1f2937;
+  padding: 16px 32px;
+}
+.hero-image-container {
+  max-width: 400px;
+  text-align: center;
+}
+.hero-image-container img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.hero-info h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.hero-info p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.button-hero {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-hero:hover {
+  background-color: #2074a0;
 }
